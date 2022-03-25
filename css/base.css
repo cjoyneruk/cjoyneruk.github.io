@@ -88,7 +88,7 @@ nav {
 .card-grid {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 70px;
 }
 
@@ -103,7 +103,6 @@ nav {
 }
 
 .card-title {
-    background-color: var(--primary);
     color: var(--light);
     position: absolute;
     padding: 20px;
@@ -144,6 +143,14 @@ nav {
 
 .card-footer {
     padding: 20px;
+}
+
+.card-body a {
+    color: var(--primary)
+}
+
+.card-body a:hover {
+    color: var(--primary)
 }
 
 .section-header {

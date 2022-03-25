@@ -2,8 +2,6 @@ body, html {
     background-color: var(--dark);
 }
 
-
-
 .hero {
     width: 100%;
     min-height: 400px;
@@ -62,6 +60,35 @@ body, html {
     margin-bottom: 25px;
 }
 
+.links-container {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.social-icon path {
+    fill: var(--light);
+    opacity: 0.8;
+    transition: opacity 0.2s ease-out;
+}
+
+.social-icon:hover path {
+    fill: var(--light);
+    opacity: 1;
+}
+
 .blog-wrapper {
     width: 100%;
     background: linear-gradient(0deg, var(--dark) 2%, var(--primary), var(--dark) 98%);
@@ -70,6 +97,11 @@ body, html {
 
 .blog-container {
     padding: 50px 20px;
+}
+
+#fairness-post .card-title{
+    background-color: rgb(102, 8, 8);
+    opacity: 0.9;
 }
 
 @media only screen and (max-width: 720px) {
