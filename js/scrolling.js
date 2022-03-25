@@ -5,7 +5,6 @@ let section_headers = Array.prototype.slice.call(document.getElementsByClassName
 const gap = 10;
 const header_height = 50;
 
-
 function scrollClass() {
     
     // Compute Y offsets
@@ -20,10 +19,16 @@ function scrollClass() {
         if (y > 0) {
 
             header.classList.add("sticky")
-
-            console.log(y)
+            
             let top_pos = Math.max(sticky_start-y, 10)
             header.style.top = `${top_pos}px`
+
+            if (index>0) {
+
+                let previous_header = array[index-1]
+                let prev_header_pos = gap - y
+                previous_header.style.top = `${prev_header_pos}px`
+            }
 
         } else {
             header.classList.remove("sticky")
