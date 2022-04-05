@@ -1,0 +1,88 @@
+.jp-Cell {
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+
+.jp-Cell-inputArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.jp-OutputArea-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.jp-CodeCell .jp-InputPrompt {
+    display: block;
+    background-color: var(--green);
+    width: 50px;
+    color: var(--light);
+    font-size: 0.6em;
+    padding: 10px;
+}
+
+.jp-CodeCell .jp-OutputPrompt {
+    display: block;
+    background-color: var(--red);
+    width: 50px;
+    color: var(--light);
+    font-size: 0.6em;
+    padding: 10px;
+}
+
+.jp-CodeCell .jp-InputArea-editor {
+    display: block;
+    height: 100%;
+    background-color: rgba(246, 246, 246, 0.1);
+    border: 1px solid var(--green);
+    padding: 10px;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.jp-CodeCell .jp-OutputArea-output {
+    display: block;
+    height: 100%;
+    border: 1px solid var(--red);
+    padding: 10px;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.jp-RenderedImage {
+    text-align: center;
+}
+
+.jp-RenderedImage img{
+    background-color: #ffffff;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.hl-ipython3 .c1 {
+    color: var(--green);
+}
+
+.hl-ipython3 .kn, .k {
+    color: rgb(143, 63, 183);
+}
+
+.hl-ipython3 .s1 {
+    color: rgb(213, 180, 81);
+}
+
+.hl-ipython3 .nf {
+    color: rgb(45, 197, 213);
+}
+
+.hl-ipython3 .sd {
+    color: rgb(232, 237, 176);
+}

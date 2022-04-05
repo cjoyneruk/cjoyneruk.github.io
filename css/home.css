@@ -15,7 +15,7 @@ body, html {
 .hero-overlay {
     width: 100%;
     min-height: 400px;
-    background: linear-gradient(0deg, var(--dark) 2%, rgba(39, 43, 51, 0.7), var(--dark) 98%);
+    background: linear-gradient(0deg, var(--dark) 2%, rgba(39, 43, 51, 0.7), var(--very-dark) 98%);
 }
 
 .hero .body {
@@ -103,6 +103,12 @@ body, html {
     background-color: rgb(102, 8, 8);
     opacity: 0.9;
 }
+
+#titanic-post .card-title{
+    background-color: rgb(9, 84, 10);
+    opacity: 0.9;
+}
+
 
 @media only screen and (max-width: 720px) {
 

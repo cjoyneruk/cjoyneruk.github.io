@@ -3,36 +3,28 @@
 }
 
 .article .title{
-    padding: 20px;
+    padding: 20px 10px;
     font-size: 3em;
+    border-bottom: 1px solid var(--gray);
 }
 
 .article h1, h2, h3 {
     font-size: 1.2em;
-    margin-bottom: 12px;
-}
-
-.article .section-header {    
-    background-color: var(--primary);
-    color: var(--light);
-    width: 100%;
-    height: 50px;
-    padding-top: 12px;
-    z-index: 1;
 }
 
 .article .header-styling {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .article .content-styling {    
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 .article p {
     line-height: 200%;    
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .article figure {
@@ -42,6 +34,7 @@
 }
 
 .article figure img {
+    background-color: white;
     width: 25%;
 }
 
@@ -59,19 +52,19 @@
 .article table {
     margin: 20px auto;
     border-collapse: collapse;
-    border: 1px solid #222;
+    border: 1px solid var(--light);
 }
 
 .article th {
     padding: 5px;
-    border-bottom: 1px solid #222;
-    border-right: 1px solid #222;
+    border-bottom: 1px solid var(--light);
+    border-right: 1px solid var(--light);
 }
 
 .article td {
     padding: 5px;
-    border-bottom: 1px solid #222;
-    border-right: 1px solid #222;
+    border-bottom: 1px solid var(--light);
+    border-right: 1px solid var(--light);
 }
 
 .article ol {
